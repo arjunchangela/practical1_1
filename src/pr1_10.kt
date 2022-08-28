@@ -21,9 +21,9 @@ class Car(type:String, model:String, price:Int, owner:String, miles:Int){
     }
 }
 fun main() {
-    var c1 = Car("SUV", "FORTUNER", 125000, "Kamiyab", 10000)
+    var c1 = Car("SUV", "FORTUNER", 125000, "arjun", 10000)
     c1.getCarInfo()
-    var c2 = Car(" SUV", "NEXON", 100000, "Momin", 50000)
+    var c2 = Car(" SUV", "NEXON", 100000, "gopal", 50000)
     c2.getCarInfo()
     println("*************************")
     c1.getOriginalCarPrice()
